@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"go-todo-cli/cmd"
 	"os"
+	"go-todo-cli/cmd"
 )
 
 func main() {
