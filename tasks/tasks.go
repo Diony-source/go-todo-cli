@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strings"
 )
 
 // File where tasks are stored
@@ -55,6 +56,4 @@ func ListTasks() {
 
 // CompleteTask marks a task as complete (to be implemented)
 func CompleteTask(taskNumber string) {
-	// Placeholder logic for now, will be developed further
-	fmt.Printf("Task %s marked as complete\n", taskNumber)
-}
+	//
