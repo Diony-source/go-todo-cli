@@ -1,6 +1,6 @@
 # Go CLI To-Do List Application
 
-This is a command-line interface (CLI) application written in Go for managing a to-do list.
+This is a simple command-line interface (CLI) to-do list application written in Go.
 
 ## Features
 - Add tasks
@@ -9,4 +9,6 @@ This is a command-line interface (CLI) application written in Go for managing a 
 
 ## How to Run
 ```bash
-go run main.go
+go run main.go add -task="New Task"
+go run main.go list
+go run main.go complete 1
