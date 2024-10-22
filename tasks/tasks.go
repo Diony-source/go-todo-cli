@@ -5,7 +5,6 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	"strings"
 )
 
 // File where tasks are stored
